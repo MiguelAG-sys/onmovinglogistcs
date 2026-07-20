@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
+  "types": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "build": "tsc --build",
-    "lint": "eslint .",
-    "prepublishOnly": "npm run build"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/MiguelAG-sys/onmovingligistcs/issues"
   },
-  "homepage": "https://github.com/MiguelAG-sys/onmovingligistcs#readme"
+  "homepage": "https://github.com/MiguelAG-sys/onmovingligistcs#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2"
+  }
 }
